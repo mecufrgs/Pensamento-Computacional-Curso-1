@@ -1,0 +1,23 @@
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+
+.unit-container{
+    width: 100%;
+    color: #585858;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 768px){
+    .unit-container {
+        width: 75%;
+    }
+}
+
+@media screen and (orientation: portrait) {
+   .unit-container{
+       padding-bottom: 10%;
+   }
+}

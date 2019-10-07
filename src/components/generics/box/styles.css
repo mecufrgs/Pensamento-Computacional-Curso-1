@@ -1,0 +1,11 @@
+.box-container{
+    border: 0.05em solid;
+    padding: 0em 1em 1em 1em;
+}
+
+.box-container textarea{
+    width: 100%;
+    font-size: 1em;
+    color: #585858;
+    margin-top: 0.3em;
+}

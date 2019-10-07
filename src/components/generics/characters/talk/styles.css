@@ -1,0 +1,158 @@
+div.main-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,49,44, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    font-family: 'Nunito', sans-serif;
+}
+
+div.character-container{
+    margin: auto;
+    width: 820px;
+    height: 520px;
+    background: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+}
+
+div.character-container.green-container{
+    background-position-y: 0px;
+}
+
+div.buttons-container{
+    color: rgb(101, 196, 209);
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 340px;
+    margin-top: 365px;
+}  
+
+div.character-container.green-container .buttons-container{
+    margin-left: 330px;
+}
+
+div.buttons-container div.button{
+    float: left;
+    border: 2px solid #FFD478;
+    border-radius: 10px;
+    background-color: #FFD478;
+    color: #41B4C4;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14pt;
+}
+
+div.buttons-container div.button:hover{
+    border-color: #027E8F; 
+    color: #027E8F; 
+}
+
+div.buttons-container div.button.first-button{
+    margin-left: 182.5px;
+}
+
+div.buttons-container div.button.next-button, div.buttons-container div.button.previous-button, div.buttons-container div.button.last-previous{
+    border-radius: 12.5px;
+}
+
+div.buttons-container div.button.next-button, div.buttons-container div.button.previous-button, div.buttons-container div.button.last-previous{
+    font-size: 21pt;
+    padding: 0px 9px 3px 12px;
+}
+
+div.buttons-container div.button.ok-button{
+    font-size: 18pt;
+    padding: 4px 5px 4px 8px;
+}
+
+div.buttons-container div.button.first-button{
+    font-size: 14pt;
+    padding: 4px 5px 4px 8px;
+}
+
+div.buttons-container div.button.previous-button{
+    margin-right: 20px;
+    margin-left: 188px;
+}
+
+div.buttons-container div.button.last-previous{
+    margin-right: 20px;
+    margin-left: 175px;
+}
+
+div.close-button-container{
+    color: rgb(255, 212, 120);
+    margin-left: 525px;
+    cursor: pointer;
+}
+
+div.character-container.green-container .close-button-container{
+    margin-left: 515px;
+}
+
+div.close-button-underline{
+    height: 1.25px;
+    width: 85px;
+    margin-left: 10px;
+    background-color: rgb(255, 212, 120);
+}
+
+@keyframes fadeInOut {
+    100% {
+        opacity:1;
+    }
+    80% {
+        opacity:0.8;
+    }
+    60% {
+        opacity:0.6;
+    }
+    40% {
+        opacity:0.4;
+    }
+    20% {
+        opacity:0.2;
+    }
+    0% {
+        opacity:0;
+    }
+}
+
+@keyframes fadeIn {
+    100% {
+        background-color: rgba(51,49,44, 0.65);
+    }
+    90% {
+        background-color: rgba(51,49,44, 0.70);
+    }
+    75% {
+        background-color: rgba(51,49,44, 0.75);
+    }
+    60% {
+        background-color: rgba(51,49,44, 0.8);
+    }
+    45% {
+        background-color: rgba(51,49,44, 0.85);
+    }
+    30% {
+        background-color: rgba(51,49,44, 0.90);
+    }
+    15% {
+        background-color: rgba(51,49,44, 0.95);
+    }
+    0% {
+        background-color: rgba(51,49,44, 1);
+    }
+}

@@ -1,0 +1,19 @@
+.footer-container{
+    padding-top: 1em;
+    padding-bottom: 4.2em;
+    margin-bottom: 0em;
+    background-color: #027e8f;
+}
+
+.footer-content{
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (orientation: portrait) {
+   .footer-container{
+       padding-top: 0.25em;
+       padding-bottom: 0.1em;
+   }
+}

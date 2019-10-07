@@ -1,0 +1,676 @@
+[
+    {
+        "identificador": "introducao_ao_pensamento_computacional",
+        "nome": "Introdução",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": []
+    },
+    {
+        "identificador": "decomposicao",
+        "nome": "Decomposição",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_decomposicao",
+                "nomeAtividade": "Diagnose Médica",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_decomposicao",
+                        "enunciado": "Com o propósito de diagnosticar a origem de um problema de saúde, a partir de sintomas diversos, um médico usualmente analisa o corpo humano segundo seus sistemas ou elementos constituintes. Em tal cenário, qual dos seguintes conjuntos lhe parece menos adequado.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Cardiovascular, respiratório, digestivo, nervoso, sensorial, endócrino, excretor, urinário, reprodutor, esquelético, muscular, imunológico, linfático, tegumentar.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Cavidades nasais, faringe, laringe, traquéia, brônquios, pulmões.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Cabeça, tronco, membros.",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Visão, audição, olfato, paladar, tato.",
+                                "chave": "4",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Artérias, veias, vasos capilares.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_decomposicao",
+                "nomeAtividade": "Organizando um evento escolar",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_decomposicao",
+                        "enunciado": "Qualquer evento, seja no âmbito pessoal (aniversários, casamentos, festas religiosas, etc.) quanto no profissional (congressos, seminários, premiações, etc.), requer, para sua realização, a execução de um conjunto de atividades que podem, dependendo da dimensão do evento em questão, envolver várias pessoas ou equipes, responsáveis pelos diferentes aspectos que constituem o evento. Considere a realização do seminário \"O Pensamento Computacional na Escola\", e dentre as diferentes listas apresentadas nas alternativas , indique qual lhe parece uma decomposição adequada de elementos envolvidos nesse evento.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Convidados; local; refrigeração; mídia/transmissão; comissão julgadora.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Divulgação; patrocínio; local; atrações; licenciamento; ingressos; segurança.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Local; convites; figurino; sonorização; apresentação.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Inscrições; data; patrocínio; comitês; local; transporte; programação.",
+                                "chave": "4",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Convites; cardápio; música; bolo decorado; doces; salgados; bebidas; lembranças.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_decomposicao",
+                "nomeAtividade": "Avaliando um festival folclórico",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_decomposicao",
+                        "enunciado": "Considere que você precisa definir como deve ser realizada a avaliação das danças apresentadas por grupos em um festival folclórico. Considere ainda que esse festival seja realizado pela comunidade de uma escola, de um bairro ou até de uma cidade inteira. Reflita sobre como a avaliação poderia ser decomposta em elementos e indique qual, dentre os seguintes elementos, seria menos adequado para esse fim.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Tempo da apresentação.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Sincronia.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Precisão de movimentos.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Participação da audiência.",
+                                "chave": "4",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Figurino.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "abstracao",
+        "nome": "Abstração",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_abstracao",
+                "nomeAtividade": "Organizar guarda-roupa",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_abstracao",
+                        "enunciado": "Dentre as atividades necessárias para detalhar a abstração “Organizar o seu guarda-roupa”, identifique aquela que lhe parece menos adequada:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Separar as peças de roupa por tipo.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Para cada tipo de peça, organizar por cores.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Guardar cada peça no espaço reservado para o seu tipo.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Separar as peças por cor, independentemente do tipo.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_abstracao",
+                "nomeAtividade": "Organizar biblioteca",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_abstracao",
+                        "enunciado": "Considere a organização de uma biblioteca e indique o que lhe parece ser uma abstração mais conveniente para falar de livros: ",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Cores das capas.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Autores dos livros.",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Tamanho das letras.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Gramatura do papel.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_abstracao",
+                "nomeAtividade": "Área de vendas",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_abstracao",
+                        "enunciado": "Para organizar os produtos da área de vendas ao consumidor, o que lhe parece ser um conjunto menos adequado de setores:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Padaria, Materiais de Limpeza, Congelados, Hortigranjeiros.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Produtos da empresa X, Produtos da Empresa Y, Produtos da Empresa Z.",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Higiene pessoal, Laticinios, Adega, Bomboniere, Açougue.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Frios, Congelados, Matinais, Materiais Elétricos.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "reconhecimento_de_padroes",
+        "nome": "Reconhecimento de Padrões",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_reconhecimento_de_padroes",
+                "nomeAtividade": "O Estranho",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_reconhecimento_de_padroes",
+                        "enunciado": "Em lugar do texto que está no AVA, deve ser colocado o que segue, as opções de resposta permanecem as mesmas: Passeando pelo centro de uma cidade conhecida, você se depara com um aglomerado de pessoas. De repente um desconhecido estabelece uma conversa com você, buscando também entender o que está acontecendo. Essa conversa segue,  ambos levantando hipóteses e trocando opiniões, quando percebem que já se passaram uns 30 minutos e terminam por se despedir sem terem descoberto o motivo da aglomeração. Após a partida do estranho, você se dá por conta que o mesmo não parecia ser nativo do lugar. Motivado pela curiosidade, você repassa o que lembra ter visto e ouvido durante a conversa, para ver se lhe ocorre em qual região aquela pessoa poderia ter nascido e/ou sido criada. Qual, dentre os elementos a seguir, seria o menos provável de estabelecer um padrão adequado a tal propósito",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Sotaque.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Uso de expressões idiomáticas.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Uso de roupas formais.",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Referências a elementos regionais.",
+                                "chave": "4",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Preferência por estilo musical.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]   
+            },
+            {
+                "identificador": "atividade_2_reconhecimento_de_padroes",
+                "nomeAtividade": "Profissão",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_reconhecimento_de_padroes",
+                        "enunciado": "Considere o propósito de identificar a profissão do desconhecido dentro da mesma situação da atividade A1 acima. Qual, dentre os elementos a seguir, seria o menos provável de estabelecer um padrão adequado a tal propósito? ",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Curso formal na área.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Marca do celular usado.",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Habilidades sociais.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Local de estágio.",
+                                "chave": "4",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Uso de fardamento no dia a dia.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_reconhecimento_de_padroes",
+                "nomeAtividade": "Peixe fresco",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_reconhecimento_de_padroes",
+                        "enunciado": "Num mercado, determinar se o peixe está de fato fresco envolve analisar se cada exemplar está em conformidade com certos elementos, como os mencionados a seguir. Qual, dentre os aspectos abaixo, parece menos provável de caracterizar a frescura de um certo pescado?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Cor dos olhos.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Brilho das escamas.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Firmeza da carne.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Peso.",
+                                "chave": "4",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Cor/estado das vísceras.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_reconhecimento_de_padroes",
+                "nomeAtividade": "Final da telenovela",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_reconhecimento_de_padroes",
+                        "enunciado": "Num mercado, determinar se o peixe está de fato fresco envolve analisar se cada exemplar está em conformidade com certos elementos, como os mencionados a seguir. Qual, dentre os aspectos abaixo, parece menos provável de caracterizar a frescura de um certo pescado?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Morte de um personagem.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Personagem fazendo uso de produto da marca.",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Fuga/soltura de um personagem preso na etapa inicial.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Aproximação entre casal de personagens que antes eram adversários.",
+                                "chave": "4",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Revelação de fatos sobre o nascimento do protagonista.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_5_reconhecimento_de_padroes",
+                "nomeAtividade": "Identificação de doença",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a5_reconhecimento_de_padroes",
+                        "enunciado": "Pense em alguma vez que você ou alguém próximo adoeceu e a natureza da enfermidade foi sugerida e confirmada posteriormente por diagnóstico médico. Em contexto similar, diga qual, dentre os elementos a seguir, seria o menos provável de auxiliar a estabelecer um padrão adequado a tal propósito.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Histórico de doenças.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Pele e cabelo limpos.",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Mudança involuntária de comportamento (apetite, por exemplo).",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Dores no corpo.",
+                                "chave": "4",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Alterações físicas (febre, vômito, diarréia, etc).",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "algoritmos", 
+        "nome": "Algoritmos",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_algoritmos",
+                "nomeAtividade": "Algoritmo com recipientes",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_algoritmos",
+                        "enunciado": "Considere o Algoritmo 02, a seguir, sobre o qual fazemos algumas afirmações. Identifique a alternativa que parece menos apropriada para se referir a este algoritmo.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "O algoritmo descreve uma sequência de operações cuja execução completa nos permite obter exatos 4 litros de água no recipiente R5.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Se retirarmos a Operação 7, o algoritmo passa a descrever uma solução para se obter 7 litros de água.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Para obter 7 litros de água podemos retirar as duas últimas operações do Algoritmo 02.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "A execução do algoritmo resultará em 4 litros de água no recipiente R3.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_algoritmos",
+                "nomeAtividade": "Lista de compras",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_algoritmos",
+                        "enunciado": "A02. Considere a sequência de operações denominada de Algoritmo 07. Selecione a afirmação a seguir que lhe parece ser a menos indicada para se referir ao Algoritmo 07.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Se a operação 2.1 for substituída por \"procure o produto em cada banca da feira\", o algoritmo descreve uma sequência de operações para a realização de compras em uma feira.",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Algumas vezes a operação “procure o produto …” não será bem sucedida.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": " Podemos dividir a lista de compras em duas ou mais partes, obtendo outras listas, que podem ser atribuídas a compradores diferentes. Se solicitarmos que cada um execute o Algoritmo 07, cada comprador terá que pagar a conta relativa a sua própria compra.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Se nenhum dos produtos de sua lista forem encontrados no supermercado, você chegará ao caixa com seu carrinho vazio e, portanto, nada terá que pagar. Ou seja, as ações “dirija-se ao caixa”  e “pague a conta”  são desnecessárias para esse caso e os Passos 3 e 4 do nosso algoritmo poderiam ser substituídos pelo trecho a seguir.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_algoritmos",
+                "nomeAtividade": "Pilha de pratos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_algoritmos",
+                        "enunciado": "Considere o Algoritmo 12, sobre o qual se fazem algumas afirmações. Selecione aquela que lhe parece com menos possibilidade de estar correta.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "A execução do algoritmo certamente produzirá uma pilha vazia de pratos sujos e uma pilha de pratos limpos com a mesma quantidade de pratos que existia na pilha de pratos sujos.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "O algoritmo funciona para qualquer pilha de pratos sujos, independentemente da quantidade de pratos.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "O tempo necessário para executar o Algoritmo 12, do início ao fim, é  proporcional à quantidade de pratos sujos e depende ainda do tempo médio necessário para lavar 1 prato.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Se ao executarmos a Operação 1.b, quebrarmos o prato, a execução pode prosseguir sem qualquer problema.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_algoritmos",
+                "nomeAtividade": "Troca de pneu",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_algoritmos",
+                        "enunciado": "O Algoritmo 14 abaixo descreve o processo de retirada de um dos 4 pneus de um automóvel. Fazemos a seguir algumas afirmações sobre ele. Selecione a afirmação que você considera menos apropriada para se referir a este algoritmo.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "A Operação 7 descreve uma repetição que nunca termina, pois a Operação 7.c tem efeito contrário ao que é realizado na Operação 7.a.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Pela Operação 7 é possível que, a cada vez,  o parafuso a ser  retirado seja diferente do parafuso retirado na repetição anterior.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "No mesmo ciclo, é possível que o parafuso retirado seja diferente do colocado.",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "A exclusão da Operação 7.c torna o algoritmo correto para os objetivos pretendido.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "pensamento_computacional_interdisciplinaridade_e_cooperacao",
+        "nome": "Interdisciplinaridade e Cooperação",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_pensamento_computacional_interdisciplinaridade_e_cooperacao",
+                "nomeAtividade": "Cuidados com a saúde",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_pensamento_computacional_interdisciplinaridade_e_cooperacao",
+                        "enunciado": "A2: Considere o documento indicado no quadro \"Para saber mais...\". Aquele documento discute diversas ações e resultados na prevenção e tratamento de problemas decorrentes da obesidade. As afirmações a seguir foram construídas associando trechos do documento aos pilares do Pensamento Computacional. Escolha a opção com a associação menos adequada.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "\"O peso corporal saudável depende de gatilhos culturais ou ambientais que produzem efeitos sobre a saúde individual, tais como as condições de segurança, as características do comércio local e global de alimentos, a qualidade e acesso ao transporte coletivo, acesso à recreação, serviços e apoio social e educacional [abstração], entre outros aspectos do contexto que modulam as práticas e estilos de vida atual… [decomposição]\"",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "\"Hoje, o desafio é superar o modelo biomédico que vê o indivíduo e organiza o cuidado de maneira fragmentada, propondo inovações e um novo olhar aos indivíduos, dentro da atenção à saúde no SUS.\" [decomposição]",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "\"... oficina faz referência a lugar de trabalho coletivo e a uma experiência de atividade realizada em um encontro de pessoas, no qual se procurará construir juntos, uma vivência coletiva e um saber.\" [reconhecimento de padrões] ",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "\"Intercalado aos encontros, ocorre uma oficina denominada “Saúde no Prato”, com o intuito de desenvolver receitas, desmitificar mitos sobre a alimentação e despertar o interesse por uma alimentação saudável, a fim de auxiliar nas escolhas saudáveis e na mudança de hábitos.\" [algoritmos]",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_pensamento_computacional_interdisciplinaridade_e_cooperacao",
+                "nomeAtividade": "O método JIGSAW ll",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_pensamento_computacional_interdisciplinaridade_e_cooperacao",
+                        "enunciado": "Aprendizagem ativa - o método JIGSAW II (Slavin, 1955) (Pereira, 2003) - A lista de ações, a seguir, descreve um método (Algoritmo) de aprendizagem cooperativa, denominado JIGSAW II.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Estabelece uma clara interdependência entre os membros dos grupos",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Permite perceber (e cobrar) responsabilidades individuais",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Contempla a negociação de significados",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "O resultado da sua aplicação permite um melhor entendimento sobre o assunto do texto escolhido",
+                                "chave": "4",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Apresenta  \"fases\" ou \"estágios\" bem definidos",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "conclusao",
+        "nome": "Conclusão",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": []
+    }
+]
